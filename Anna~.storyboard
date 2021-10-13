@@ -27,7 +27,7 @@
                                 <rect key="frame" x="110" y="620" width="194" height="30"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <segue destination="Vpe-UM-UAr" kind="show" id="8cc-5O-rBI"/>
+                                    <segue destination="uOO-yU-7st" kind="show" id="8cc-5O-rBI"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -46,6 +46,22 @@
             </objects>
             <point key="canvasLocation" x="599" y="-169"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="8ZK-zo-Qyq">
+            <objects>
+                <viewController id="uOO-yU-7st" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="eUM-zi-2fF">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="6TF-P4-7Pm"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="nGq-Ca-jeb"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ir7-si-ZEP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1791" y="-242"/>
+        </scene>
         <!--Vova-->
         <scene sceneID="mmZ-HQ-2tc">
             <objects>
@@ -54,17 +70,7 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PcI-B6-zdo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1225" y="-208"/>
-        </scene>
-        <!--Anna-->
-        <scene sceneID="u1y-2Z-5Q4">
-            <objects>
-                <viewControllerPlaceholder storyboardName="Anna" id="Vpe-UM-UAr" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="8Kr-dU-3Qw"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="jDE-ey-Xym" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1224" y="-137"/>
+            <point key="canvasLocation" x="1496" y="-67"/>
         </scene>
     </scenes>
     <resources>

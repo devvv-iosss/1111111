@@ -13,6 +13,8 @@
 		8409524027172CC800327573 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8409523E27172CC800327573 /* Main.storyboard */; };
 		8409524227172CD300327573 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8409524127172CD300327573 /* Assets.xcassets */; };
 		8409524527172CD300327573 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8409524327172CD300327573 /* LaunchScreen.storyboard */; };
+		8409524F27172DC300327573 /* Vova.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8409524D27172DC300327573 /* Vova.storyboard */; };
+		8409525327172E4200327573 /* Anna.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8409525227172E4200327573 /* Anna.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		8409524127172CD300327573 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8409524427172CD300327573 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8409524627172CD300327573 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8409524E27172DC300327573 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = 1111111/Base.lproj/Vova.storyboard; sourceTree = "<group>"; };
+		8409525227172E4200327573 /* Anna.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Anna.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			children = (
 				8409523827172CC800327573 /* AppDelegate.swift */,
 				8409523A27172CC800327573 /* SceneDelegate.swift */,
+				8409524D27172DC300327573 /* Vova.storyboard */,
+				8409525227172E4200327573 /* Anna.storyboard */,
 				8409523C27172CC800327573 /* ViewController.swift */,
 				8409523E27172CC800327573 /* Main.storyboard */,
 				8409524127172CD300327573 /* Assets.xcassets */,
@@ -126,6 +132,8 @@
 			files = (
 				8409524527172CD300327573 /* LaunchScreen.storyboard in Resources */,
 				8409524227172CD300327573 /* Assets.xcassets in Resources */,
+				8409525327172E4200327573 /* Anna.storyboard in Resources */,
+				8409524F27172DC300327573 /* Vova.storyboard in Resources */,
 				8409524027172CC800327573 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -160,6 +168,14 @@
 				8409524427172CD300327573 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		8409524D27172DC300327573 /* Vova.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8409524E27172DC300327573 /* Base */,
+			);
+			name = Vova.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

@@ -20,51 +20,37 @@
                                 <rect key="frame" x="184" y="433" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <segue destination="RBb-Hl-eSo" kind="show" id="tkv-Ba-c0T"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a1G-z0-zEQ">
-                                <rect key="frame" x="110" y="620" width="194" height="30"/>
-                                <state key="normal" title="Button"/>
-                                <connections>
-                                    <segue destination="Vpe-UM-UAr" kind="show" id="8cc-5O-rBI"/>
+                                    <segue destination="nEA-6o-cls" kind="show" id="tkv-Ba-c0T"/>
                                 </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="a1G-z0-zEQ" secondAttribute="trailing" constant="110" id="ANb-u0-7tL"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="a1G-z0-zEQ" secondAttribute="bottom" constant="212" id="MII-oe-Ryj"/>
                             <constraint firstItem="zio-23-aLL" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="iwf-2K-51C"/>
                             <constraint firstItem="zio-23-aLL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="kb3-VR-tOL"/>
-                            <constraint firstItem="a1G-z0-zEQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="110" id="kgb-1B-C1E"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="599" y="-169"/>
+            <point key="canvasLocation" x="769.56521739130437" y="-82.366071428571431"/>
         </scene>
-        <!--Vova-->
-        <scene sceneID="mmZ-HQ-2tc">
+        <!--View Controller-->
+        <scene sceneID="OuK-el-0wH">
             <objects>
-                <viewControllerPlaceholder storyboardName="Vova" id="RBb-Hl-eSo" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="I7u-JO-Ree"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="PcI-B6-zdo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <viewController id="nEA-6o-cls" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="FuY-hY-6DQ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="J4r-th-bZf"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="mod-pp-koV"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ucV-IE-pUq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1225" y="-208"/>
-        </scene>
-        <!--Anna-->
-        <scene sceneID="u1y-2Z-5Q4">
-            <objects>
-                <viewControllerPlaceholder storyboardName="Anna" id="Vpe-UM-UAr" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="8Kr-dU-3Qw"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="jDE-ey-Xym" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1224" y="-137"/>
+            <point key="canvasLocation" x="1496" y="-67"/>
         </scene>
     </scenes>
     <resources>
