@@ -15,6 +15,7 @@
 		8409524527172CD300327573 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8409524327172CD300327573 /* LaunchScreen.storyboard */; };
 		8409524F27172DC300327573 /* Vova.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8409524D27172DC300327573 /* Vova.storyboard */; };
 		8409525327172E4200327573 /* Anna.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8409525227172E4200327573 /* Anna.storyboard */; };
+		8409525627172FBC00327573 /* VovaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8409525527172FBC00327573 /* VovaViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		8409524627172CD300327573 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8409524E27172DC300327573 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = 1111111/Base.lproj/Vova.storyboard; sourceTree = "<group>"; };
 		8409525227172E4200327573 /* Anna.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Anna.storyboard; sourceTree = "<group>"; };
+		8409525527172FBC00327573 /* VovaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VovaViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				8409523827172CC800327573 /* AppDelegate.swift */,
 				8409523A27172CC800327573 /* SceneDelegate.swift */,
 				8409524D27172DC300327573 /* Vova.storyboard */,
+				8409525527172FBC00327573 /* VovaViewController.swift */,
 				8409525227172E4200327573 /* Anna.storyboard */,
 				8409523C27172CC800327573 /* ViewController.swift */,
 				8409523E27172CC800327573 /* Main.storyboard */,
@@ -147,6 +150,7 @@
 			files = (
 				8409523D27172CC800327573 /* ViewController.swift in Sources */,
 				8409523927172CC800327573 /* AppDelegate.swift in Sources */,
+				8409525627172FBC00327573 /* VovaViewController.swift in Sources */,
 				8409523B27172CC800327573 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
